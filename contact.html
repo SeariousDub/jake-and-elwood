@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="fiewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jake and Elwood</title>
+
+        <!-- link to google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- https://cdnjs.com/libraries/font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+       
+        <header class="header main-grid"> <!--HEADER STARTS HERE-->
+
+            <div class="header-content">
+                <a class="logo-link" href="index.html">
+                <img src="img/logo.png" alt="" class="logo">
+                </a>
+                <button class="open-nav" aria-label="Open navigation.">&#9776;</button>
+
+                <nav class="nav">
+                    <button class="close-nav" aria-label="Close navigation.">&times;</button>
+
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link current">contact</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        
+        </header> <!--HEADER ENDS HERE-->
+
+
+
+        <main role="main" class="main-template main-grid"> <!--MAIN STARTS HERE-->
+
+            <h1 class="page-title">Contact.</h1>
+            <p class="subtitle">Let us know how we can help you need and we'll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+
+            <img class="main-image" src="img/contact.jpg" alt="A bunch of mailboxes.">
+
+            <div class="secondary-text">
+                <h2 class="section-title">Getting in touch with us</h2>
+                <p>You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
+            </div>
+
+            <div class="main-text">
+                <form class="contact-form" action="#" method="post"> <!-- form starts here -->
+
+                    <label class="fname-label" for="fname">First Name</label>
+                    <input class="fname-input" id="fname" type="text">
+
+                    <label class="lname-label" for="lname">Last Name</label>
+                    <input class="lname-input" id="lname" type="text">
+
+                    <label class="message-label" for="message">Message</label>
+                    <textarea class="message-textarea" id="message" placeholder="Your message goes here"></textarea>
+
+                    <button class="btn btn-primary btn-form">Send</button>
+
+                </form> <!-- form ends here -->
+            </div>
+
+        </main> <!--MAIN ENDS HERE-->
+        
+
+        <footer class="footer main-grid"> <!--FOOTER STARTS HERE-->
+
+            <div class="footer-main">
+                <img src="img/logo.png" alt="" class="footer-logo">
+
+                <p class="footer-text">Two brothers from Chicago that are just trying to pay back their debt by helping others with their SEO, SEM, and Content Marketing needs.</p>
+
+                <p class="footer-fineprint">© Jake&Elwood 2019</p>
+            </div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+
+        </footer> <!--FOOTER ENDS HERE-->
+
+        <script src="script.js"></script>
+    </body>
+</html>
