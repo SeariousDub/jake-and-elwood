@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     color: #404040;
-    line-height: 1.6;
+    line-height: 1.6;   
 }
 
 img {
@@ -347,6 +347,13 @@ h1, h2, strong {
 
     .hero > * {
         grid-column: 2 / span 2;
+    }
+}
+
+@media (min-width: 1900px) {
+    .hero {
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
